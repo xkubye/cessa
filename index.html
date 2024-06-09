@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div class="logo"><img src="logos.png" alt="Your Logo"></div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products..." id="searchInput">
+            <button onclick="searchProduct()">🔍</button>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner-img"><img src="banner.png" alt="Banner 1"></div>
+        <div class="banner-img"><img src="banner2.png" alt="Banner 2"></div>
+        <div class="banner-img"><img src="banner3.png" alt="Banner 3"></div>
+    </section>
+    <nav id="sideMenu">
+        <ul>
+            <li><a href="#" onclick="navigateTo('index.html')">Home</a></li>
+            <li><a href="#" onclick="navigateTo('index10.html')">About Us</a></li>
+            <li><a href="#" onclick="navigateTo('contact')">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="product" onclick="navigateToProduct('index2.html')">
+            <img src="freefire.png" alt="Free Fire">
+            <div>Free Fire</div>
+        </div>
+        <div class="product" onclick="navigateToProduct('index3.html')">
+            <img src="mlbb.png" alt="Mobile Legend">
+            <div>Mobile Legend</div>
+        </div>
+        <div class="product" onclick="navigateToProduct('index4.html')">
+            <img src="honkai.png" alt="Honkai: Star Rail">
+            <div>Honkai: Star Rail</div>
+        </div>
+        <div class="product" onclick="navigateToProduct('index5.html')">
+            <img src="genshin.png" alt="Genshin Impact">
+            <div>Genshin Impact</div>
+        </div>
+        <div class="product" onclick="navigateToProduct('index6.html')">
+            <img src="pubg.png" alt="PUBG">
+            <div>PUBG</div>
+        </div>
+        <div class="product" onclick="navigateToProduct('index7.html')">
+            <img src="ww.png" alt="Wuthering Waves">
+            <div>Wuthering Waves</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="#" id="tiktok.com"><img src="tiktok.png" alt="TikTok"></a>
+            <a href="#" id="instagram"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#" id="facebook"><img src="fb.png" alt="Facebook"></a>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Cessa-store. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
